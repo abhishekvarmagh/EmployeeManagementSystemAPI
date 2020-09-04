@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SystemModelLayer\SystemModelLayer.csproj" />
+    <ProjectReference Include="..\SystemRepositoryLayer\SystemRepositoryLayer.csproj" />
+  </ItemGroup>
+
+</Project>
