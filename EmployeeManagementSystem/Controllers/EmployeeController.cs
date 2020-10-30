@@ -7,6 +7,7 @@
     using EmployeeManagementSystemServiceLayer;
     using Microsoft.AspNetCore.Cors;
     using System;
+    using System.Threading.Tasks;
 
     /// <summary>
     /// 'Controller' Class.
@@ -32,11 +33,11 @@
         /// </summary>
         /// <returns>Return Employee Details.</returns>
         [HttpGet]
-        public ActionResult<IEnumerable<Employee>> GetAll()
+        public async Task<IActionResult> GetAll()
         {
             try
             {
-                var response = this.employeeService.GetAllEmployees();
+                var response = await Task.FromResult(this.employeeService.GetAllEmployees());
                 if (response == null)
                 {
                     return this.BadRequest(new ResponseEntity(HttpStatusCode.NotFound, "No Record Found", null));

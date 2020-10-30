@@ -4,6 +4,9 @@
     using EmployeeManagementSystemModelLayer;
     using EmployeeManagementSystemRepositoryLayer;
 
+    /// <summary>
+    /// 'Employee Service' Class.
+    /// </summary>
     public class EmployeeService : IEmployeeService
     {
 

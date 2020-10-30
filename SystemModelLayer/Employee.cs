@@ -2,6 +2,9 @@
 {
     using System.ComponentModel.DataAnnotations;
 
+    /// <summary>
+    /// 'Employee Model' Class.
+    /// </summary>
     public class Employee
     {
         public int ID { get; set; }

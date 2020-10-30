@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagementSystem", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemModelLayer", "SystemModelLayer\SystemModelLayer.csproj", "{26680600-AF25-4AC6-8A6C-CBB4FCF34524}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemRepositoryLayer", "SystemRepositoryLayer\SystemRepositoryLayer.csproj", "{37681E05-F579-40DC-A30E-9BB6F0991266}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemRepositoryLayer", "SystemRepositoryLayer\SystemRepositoryLayer.csproj", "{37681E05-F579-40DC-A30E-9BB6F0991266}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemServiceLayer", "SystemServiceLayer\SystemServiceLayer.csproj", "{4E680FC7-30D6-4CBD-933F-6A762BE52112}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemServiceLayer", "SystemServiceLayer\SystemServiceLayer.csproj", "{4E680FC7-30D6-4CBD-933F-6A762BE52112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagementUnitTest", "EmployeeManagementUnitTest\EmployeeManagementUnitTest.csproj", "{F67B9173-7ECD-40FA-AC44-B6CAB8D3D5BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4E680FC7-30D6-4CBD-933F-6A762BE52112}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E680FC7-30D6-4CBD-933F-6A762BE52112}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E680FC7-30D6-4CBD-933F-6A762BE52112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67B9173-7ECD-40FA-AC44-B6CAB8D3D5BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67B9173-7ECD-40FA-AC44-B6CAB8D3D5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67B9173-7ECD-40FA-AC44-B6CAB8D3D5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67B9173-7ECD-40FA-AC44-B6CAB8D3D5BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
